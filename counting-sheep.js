@@ -18,3 +18,11 @@
 // The output is a string
 // The recursive input is a number
 // The recursive output is a string
+
+function jumpTheFence (number) {
+  if (number === 0) return;
+  console.log(number, 'Another sheep hops the fence');
+  jumpTheFence(number - 1);
+}
+
+jumpTheFence(8);
