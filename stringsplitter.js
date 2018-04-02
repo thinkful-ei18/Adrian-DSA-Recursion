@@ -12,7 +12,7 @@
 // ['pizza', 'soda', 'water']
 
 function split (string, predicate, word = '') {
-console.log(word);
+  console.log(word);
 
   if (string.length === 0) {
     return [word];
